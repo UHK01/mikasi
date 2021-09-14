@@ -3,6 +3,8 @@ html {
     height:60px;
     display: grid;
     place-items: center;
+    text-align: center;
+    background-color:rgb(19, 97, 170);
   }
   /* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc { display: block !important; }
@@ -13,3 +15,8 @@ html {
     .pc { display: none !important; }
     .sp { display: block !important; }
 }
+html {font-size:250%;}
+p{font-size:100%;}
+p{font-weight: 800;}
+html{color: rgb(255, 255, 255);}
+div.E {font-size:280%;}

@@ -22,7 +22,7 @@ html {
     padding: 0;
 }
 html {
-    background-color: #2c92ce;  /* 両端部分に付ける背景色(黄緑色) */
+    background-color: #9313e9;  /* 両端部分に付ける背景色(黄緑色) */
     background-image: url("image.jpg");/* 両端部分に付ける背景画像 */
  }
  body {
