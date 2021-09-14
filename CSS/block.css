@@ -21,7 +21,7 @@ html {
     background-image: url("image.jpg");/* 両端部分に付ける背景画像 */
  }
  body {
-    margin: 10px 0%;  /* 外側の余白を、上下はゼロで左右は画面横幅の15％に */
+    margin: 0px 0%;  /* 外側の余白を、上下はゼロで左右は画面横幅の15％に */
     padding: 60px;     /* 内側の余白を消す */
     background-color: white;  /* 本文部分の背景色は白色 */
  }
