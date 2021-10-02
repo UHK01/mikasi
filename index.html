@@ -2,14 +2,56 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <script type="text/javascript" src="../java/test.js"></script>
-    <link rel="stylesheet" href="./CSS/Error.css">
-    <title>404 Not Found</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <script type="text/javascript" src="./java/test.js"></script>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/home.css">
+    <link rel="stylesheet" href="../CSS/pc.css">
+    <link rel="stylesheet" href="../CSS/sumaho.css">
+    <link rel="stylesheet" href="../CSS/tabu.css">
+    <title>歌詞サイト</title>
   </head>
-  </body>
   <body>
-    <h1><div class="E">404</div>Not Found
-    </h1>
-    <p>申し訳ございません。　ページが見つかりませんでした。<p>
+    <div class="area">
+      <input type="radio" name="tab_name" id="tab1" checked>
+      <label class="tab_class" for="tab1">曲名</label>
+      <div class="content_class">
+    <h1>曲名</h1>
+    <p>見たい曲を選択すると歌詞を見れます
+      <br>他にも歌詞を追加していく予定です。
+      <br>403のページが表示される場合はまだ未完成です。
+      <br>現在の曲数:4曲<br></p>
+      <form id="form1" action="https://uhk01.github.io/mikasi/" method="get">
+        <input id="sbox1" id="s" name="s" type="text" placeholder="キーワードを入力" />
+        <input id="sbtn1" type="submit" value="検索" /></form>
+      <br><a href="./HTML/surges.html">Surges</a>  
+      <br><a href="./HTML/青空のラプソディ.html">青空のラプソディ</a>      
+      <br><a href="./HTML/アスノヨゾラ哨戒班.html">アスノヨゾラ哨戒班</a>
+      <br><a href="./HTML/生きる.html">生きる</a>
+
+      </div>
+      <input type="radio" name="tab_name" id="tab2" >
+      <label class="tab_class" for="tab2">アーティスト</label>
+      <div class="content_class">
+      <h1>アーティスト</h1>
+      <p>この欄では同じアーティストの歌詞が
+      <br>2つ以上のある場合に表示されます
+      <br>現在のアーティスト人数:1人<br></p>
+      <form id="form1" action="https://uhk01.github.io/mikasi/" method="get">
+        <input id="sbox1" id="s" name="s" type="text" placeholder="キーワードを入力" />
+        <input id="sbtn1" type="submit" value="検索" /></form><br>
+      <a href="./HTML/orangestar.html">orangestar</a>
+      </div>
+      <input type="radio" name="tab_name" id="tab3" >
+      <label class="tab_class" for="tab3">パッチノート</label>
+      <div class="content_class">
+        <p>vr:1.00<br>⇒HOMEページの大型アップデートをしました</p>
+      </div>
+      <input type="radio" name="tab_name" id="tab4" >
+      <label class="tab_class" for="tab4">お知らせ</label>
+      <div class="content_class">
+        <p>none</p>
+      </div>
+    </div>
     </body>
 </html>
