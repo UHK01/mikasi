@@ -2,13 +2,13 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <script type="text/javascript" src="./java/test.js"></script>
-    <link rel="stylesheet" href="./CSS/home.css">
     <link rel="stylesheet" href="../CSS/pc.css">
     <link rel="stylesheet" href="../CSS/sumaho.css">
     <link rel="stylesheet" href="../CSS/tabu.css">
+    <link rel="stylesheet" href="./CSS/home.css">
     <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/link.css">
     <title>歌詞サイト</title>
   </head>
   <body>
@@ -19,24 +19,25 @@
     <h1>曲名</h1>
     <p>見たい曲を選択すると歌詞を見れます
       <br>他にも歌詞を追加していく予定です。
-      <br>403のページが表示される場合はまだ未完成です。
-      <br>現在の曲数:6曲<br></p>
+      <br>403が表示される場合は制作中です。
+      <br>404が表示される場合は制作準備中です。
+      <br>現在の曲数:7曲<br></p>
       <form id="form1" action="https://uhk01.github.io/mikasi/" method="get">
         <input id="sbox1" id="s" name="s" type="text" placeholder="キーワードを入力" />
         <input id="sbtn1" type="submit" value="検索" /></form>
-      <br><a href="./HTML/surges.html">Surges</a>  
-      <br><a href="./HTML/青空のラプソディ.html">青空のラプソディ</a>      
-      <br><a href="./HTML/アスノヨゾラ哨戒班.html">アスノヨゾラ哨戒班</a>
-      <br><a href="./HTML/生きる.html">生きる</a>
-      <br><a href="./HTML/信じることが怖い.html">信じることが怖い</a>
-      <br><a href="./HTML/誇り高きアイドル.html">誇り高きアイドル</a>
-      <br><font size="5">製作中⇓⇓</font>
-      <br><a href="./404.html">ヨワネハキ</a>
-      <br><a href="./404.html">同担☆拒否</a>
-      <br><a href="./404.html">真生活</a>
-      <br><a href="./404.html">フォニイ</a>
-      <br><a href="./404.html">トンデモワンダーズ</a>
-      <br><a href="./404.html">クエスチョン</a>
+        <a href="./HTML/surges.html" class="cp_link"><span data-text="Surges">Surges</span></a><br>
+        <a><a href="./HTML/青空のラプソディ.html" class="cp_link"><span data-text="青空のラプソディ">青空のラプソディ</span></a><br>
+        <a><a href="./HTML/アスノヨゾラ哨戒班.html" class="cp_link"><span data-text="アスノヨゾラ哨戒班">アスノヨゾラ哨戒班</span></a><br>
+        <a href="./HTML/生きる.html" class="cp_link"><span data-text="生きる">生きる</span></a><br>
+        <a href="./HTML/クエッション.html" class="cp_link"><span data-text="クエッション">クエッション</span></a><br>
+        <a href="./HTML/信じることが怖い.html" class="cp_link"><span data-text="信じることが怖い">信じることが怖い</span></a><br>
+        <a href="./HTML/誇り高きアイドル.html" class="cp_link"><span data-text="誇り高きアイドル">誇り高きアイドル</span></a><br>
+      <font size="5">製作中⇓⇓</font><br>
+      <a href="./404.html" class="cp_link"><span data-text="ヨハネハキ">ヨハネハキ</span></a><br>
+      <a href="./404.html" class="cp_link"><span data-text="同担☆拒否">同担☆拒否</span></a><br>
+      <a href="./404.html" class="cp_link"><span data-text="真生活">真生活</span></a><br>
+      <a href="./404.html" class="cp_link"><span data-text="フォニイ">フォニイ</span></a><br>
+      <a href="./404.html" class="cp_link"><span data-text="トンデモワンダーズ">トンデモワンダーズ</span></a><br>
       </div>
       <input type="radio" name="tab_name" id="tab2" >
       <label class="tab_class" for="tab2">アーティスト</label>
@@ -50,14 +51,15 @@
         <input id="sbtn1" type="submit" value="検索" /></form><br>
       <a href="./HTML/orangestar.html">orangestar</a><br>
       <a href="./HTML/水野あつ.html">水野あつ</a>
-      <a href="./404.html">Coming Soon</a>
+      <br><a href="./404.html">Coming Soon</a>
       </div>
       <input type="radio" name="tab_name" id="tab3" >
       <label class="tab_class" for="tab3">パッチノート</label>
       <div class="content_class">
         <h1>パッチノート</h1>
         <p>vr:1.00<br>⇒HOMEページの大型アップデートを実施しました<br>
-        vr:1.50<br>⇒楽曲・<a href="./HTML/信じることが怖い.html">信じることが怖い</a><br>　　　・<a href="./HTML/誇り高きアイドル.html">誇り高きアイドル</a><br>　　　を追加しました</p>
+        vr:1.50<br>⇒楽曲・<a href="./HTML/信じることが怖い.html">信じることが怖い</a><br>　　　・<a href="./HTML/誇り高きアイドル.html">誇り高きアイドル</a><br>　　　を追加しました
+      <br>2021/10/8 vr:2.00<br>⇒大型アップデートを実施しました</p>
       </div>
       <input type="radio" name="tab_name" id="tab4" >
       <label class="tab_class" for="tab4">お知らせ</label>
